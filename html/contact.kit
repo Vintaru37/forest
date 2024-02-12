@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakt - Forest</title>
+    <meta name="description"
+        content="Masz jakieś pytania lub nie jesteś czegoś pewny? Skontaktuj się z nami. Odpowiemy Ci tak szybko jak to tylko możliwe.">
+    <!-- @include 'styles.kit' -->
+</head>
+
+<body class="contact-page">
+    <!-- @include 'nav.kit' -->
+    <section id="contact" class="contact contact-section section">
+        <div class="wrapper">
+            <h2 class="contact-heading section-heading">Kontakt</h2>
+            <p class="contact-text">Masz jakieś pytania? Napisz do nas - <span class="contact-text-bold"> skontaktujemy
+                    się z Tobą </span></p>
+
+            <form id="contact-form" class="contact-form">
+
+                <div class="form-box">
+                    <input class="contact-input" type="text" id="name" name="name" placeholder="Wprowadź swoje imię" autocomplete = "off">
+                    <p class="contact-error-text">Wprowadź swoje imię</p>
+                </div>
+                <div class="form-box">
+                    <input class="contact-input" type="email" id="email" name="email"
+                        placeholder="Wprowadź adres email" autocomplete = "off">
+                    <p class="contact-error-text">Nieprawidłowy adres e-mail</p>
+                </div>
+                <div class="form-box">
+                    <textarea class="contact-input contact-textarea" id="message" name="message" rows="5" cols="30"
+                        placeholder="Wprowadź treść wiadomości" autocomplete = "off"></textarea>
+                    <p class="contact-error-text">Wprowadź treść wiadomości</p>
+                </div>
+                <input class="contact-send-btn" type="submit" value="Wyślij wiadomość">
+            </form>
+
+            <div class="map-container">
+                <iframe class="map"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2559.897660176283!2d19.89027427707163!3d50.08820291337964!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47165a326d015c3b%3A0x47a12cd367a1f34e!2sRestauracja%20McDonald&#39;s!5e0!3m2!1spl!2spl!4v1706639017096!5m2!1spl!2spl"
+                    style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+            <div class="contact-data-container">
+                <div class="address contact-data-item">
+                    <h3 class="address-heading info-heading">Nasza lokalizacja</h3>
+                    <p class="address-text info-text">Forest S.A.</p>
+                    <p class="address-text info-text">ul. Jasnogórska 9</p>
+                    <p class="address-text info-text">32-196 Kraków</p>
+                </div>
+                <div class="hours contact-data-item">
+                    <h3 class="hours-heading info-heading">Godziny otwarcia</h3>
+                    <p class="hours-text info-text">Pon. - Pt.: 9:00 - 17:00</p>
+                    <p class="hours-text info-text">Sobota: 10:00 - 16:00</p>
+                    <p class="hours-text info-text">Niedziela: nieczynne</p>
+                </div>
+                <div class="contact-info contact-data-item">
+                    <h3 class="contact-info-heading info-heading">Dane kontaktowe</h3>
+                    <p class="contact-info-text info-text">Email: info@example.com</p>
+                    <p class="contact-info-text info-text">Telefon: +48 123 456 789</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- @include 'footer.kit' -->
+    <script src="/dist/js/main.min.js"></script>
+</body>
+
+</html>

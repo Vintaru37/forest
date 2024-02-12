@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakt - Forest</title>
+    <meta name="description"
+        content="Masz jakieś pytania lub nie jesteś czegoś pewny? Skontaktuj się z nami. Odpowiemy Ci tak szybko jak to tylko możliwe.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link
+    href="https://fonts.googleapis.com/css2?family=Raleway&family=Montserrat:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+<link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+<link rel="stylesheet" type="text/css"
+    href="https://cdn.jsdelivr.net/npm/@mdi/font@7.4.47/css/materialdesignicons.min.css" />
+
+<link rel="stylesheet" href="/dist/css/main.min.css">
+</head>
+
+<body class="contact-page">
+    <nav class="nav">
+    <div class="wrapper">
+        <a href="index.html" class="logo nav-logo"><span class="mdi mdi-pine-tree"></span>Forest</a>
+        <button class="burger-btn"><span class="material-symbols-outlined burger-icon">
+                menu
+            </span></button>
+        <button class="burger-close-btn"><span class="mdi mdi-window-close burger-icon-close"></span></button>
+        <ul class="nav-list">
+            <li class="nav-item"><a class="nav-link scrollspy" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link aboutus-link" href="index.html#aboutus">O nas</a></li>
+            <li class="nav-item"><a class="nav-link offers-link" href="index.html#offers">Oferta</a></li>
+            <li class="nav-item"><a class="nav-link" href="contact.html">Kontakt</a></li>
+        </ul>
+    </div>
+</nav>
+    <section id="contact" class="contact contact-section section">
+        <div class="wrapper">
+            <h2 class="contact-heading section-heading">Kontakt</h2>
+            <p class="contact-text">Masz jakieś pytania? Napisz do nas - <span class="contact-text-bold"> skontaktujemy
+                    się z Tobą </span></p>
+
+            <form id="contact-form" class="contact-form">
+
+                <div class="form-box">
+                    <input class="contact-input" type="text" id="name" name="name" placeholder="Wprowadź swoje imię" autocomplete = "off">
+                    <p class="contact-error-text">Wprowadź swoje imię</p>
+                </div>
+                <div class="form-box">
+                    <input class="contact-input" type="email" id="email" name="email"
+                        placeholder="Wprowadź adres email" autocomplete = "off">
+                    <p class="contact-error-text">Nieprawidłowy adres e-mail</p>
+                </div>
+                <div class="form-box">
+                    <textarea class="contact-input contact-textarea" id="message" name="message" rows="5" cols="30"
+                        placeholder="Wprowadź treść wiadomości" autocomplete = "off"></textarea>
+                    <p class="contact-error-text">Wprowadź treść wiadomości</p>
+                </div>
+                <input class="contact-send-btn" type="submit" value="Wyślij wiadomość">
+            </form>
+
+            <div class="map-container">
+                <iframe class="map"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2559.897660176283!2d19.89027427707163!3d50.08820291337964!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47165a326d015c3b%3A0x47a12cd367a1f34e!2sRestauracja%20McDonald&#39;s!5e0!3m2!1spl!2spl!4v1706639017096!5m2!1spl!2spl"
+                    style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+            <div class="contact-data-container">
+                <div class="address contact-data-item">
+                    <h3 class="address-heading info-heading">Nasza lokalizacja</h3>
+                    <p class="address-text info-text">Forest S.A.</p>
+                    <p class="address-text info-text">ul. Jasnogórska 9</p>
+                    <p class="address-text info-text">32-196 Kraków</p>
+                </div>
+                <div class="hours contact-data-item">
+                    <h3 class="hours-heading info-heading">Godziny otwarcia</h3>
+                    <p class="hours-text info-text">Pon. - Pt.: 9:00 - 17:00</p>
+                    <p class="hours-text info-text">Sobota: 10:00 - 16:00</p>
+                    <p class="hours-text info-text">Niedziela: nieczynne</p>
+                </div>
+                <div class="contact-info contact-data-item">
+                    <h3 class="contact-info-heading info-heading">Dane kontaktowe</h3>
+                    <p class="contact-info-text info-text">Email: info@example.com</p>
+                    <p class="contact-info-text info-text">Telefon: +48 123 456 789</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+    <div class="wrapper">
+        <h3 class="logo"><span class="mdi mdi-pine-tree"></span>Forest</h3>
+        <div class="footer__boxes">
+            <div class="footer__boxes-box">
+                <h3 class="footer__boxes-box-title">O nas</h3>
+                <ul class="footer__boxes-box-list">
+                    <li class="footer__boxes-box-list-item"><a class="footer__boxes-box-list-item-link" href="#">Historia</a></li>
+                    <li class="footer__boxes-box-list-item"><a class="footer__boxes-box-list-item-link" href="#">Parki</a></li>
+                    <li class="footer__boxes-box-list-item"><a class="footer__boxes-box-list-item-link" href="#">Opinie</a></li>
+                </ul>
+            </div>
+            <div class="footer__boxes-box">
+                <h3 class="footer__boxes-box-title">Nasza firma</h3>
+                <ul class="footer__boxes-box-list">
+                    <li class="footer__boxes-box-list-item"><a class="footer__boxes-box-list-item-link" href="#">Praca</a></li>
+                    <li class="footer__boxes-box-list-item"><a class="footer__boxes-box-list-item-link" href="#">Kadry</a></li>
+                    <li class="footer__boxes-box-list-item"><a class="footer__boxes-box-list-item-link" href="#">Zarząd</a></li>
+                </ul>
+            </div>
+            <div class="footer__boxes-box">
+                <h3 class="footer__boxes-box-title">Dokumenty</h3>
+                <ul class="footer__boxes-box-list">
+                    <li class="footer__boxes-box-list-item"><a class="footer__boxes-box-list-item-link" href="#">Wnioski</a></li>
+                    <li class="footer__boxes-box-list-item"><a class="footer__boxes-box-list-item-link" href="#">Rezerwacje</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <p class="footer__bottom-text">&copy; <span class="footer__year"></span> Forest Group Company Ltd.</p>
+
+</footer>
+    <script src="/dist/js/main.min.js"></script>
+</body>
+
+</html>
