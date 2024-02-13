@@ -147,7 +147,7 @@ textarea {
 	.background-image {
 		position: relative;
 		height: 38rem;
-		background-image: url('./dist/img/jungle_small.jpg');
+		background-image: url('../img/jungle_small.jpg');
 		background-size: cover;
 		background-position: 50% 70%;
 		filter: saturate(170%);
@@ -198,7 +198,7 @@ main {
 			.lake {
 				width: 95%;
 				max-width: 55rem;
-				content: url('/dist/img/lake_small.jpg');
+				content: url('../img/lake_small.jpg');
 				background-position: center;
 				filter: saturate(140%) brightness(80%);
 			}
@@ -226,7 +226,7 @@ main {
 
 	.adventure-img {
 		position: relative;
-		background-image: url('/dist/img/girl-forest_small.jpg');
+		background-image: url('../img/girl-forest_small.jpg');
 		height: 25rem;
 		margin-top: 5rem;
 		background-size: cover;
@@ -784,7 +784,7 @@ main {
 	}
 
 	main .aboutus .wrapper .lake {
-		content: url('/dist/img/lake_large.jpg');
+		content: url('../img/lake_large.jpg');
 	}
 
 	.offers-details {
@@ -828,14 +828,14 @@ main {
 
 	.header {
 		.background-image {
-			background-image: url('/dist/img/jungle_large.jpg');
+			background-image: url('../img/jungle_large.jpg');
 			filter: saturate(150%);
 		}
 	}
 
 	main {
 		.adventure-img {
-			background-image: url('/dist/img/girl-forest_large.jpg');
+			background-image: url('../img/girl-forest_large.jpg');
 		}
 	}
 }
